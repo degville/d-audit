@@ -5,8 +5,8 @@ Make sure the _woke_ tool is first installed and in your path: [https://github.c
 
 Usage: d-audit.sh [OPTION] ...
 
-  -u <url>     URL for Discourse index page (mandatory)
-  -d <dir>     Flag to optionally download documentation pages to given directory
+  -u \<url\>     URL for Discourse index page (mandatory)
+  -d \<dir\>     Flag to optionally download documentation pages to given directory
 
 Examples:
 
