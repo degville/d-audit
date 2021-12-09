@@ -1,5 +1,6 @@
 #!/bin/bash
 # Small tool to either audit Discourse docs with woke, or download the docs to a ./docs directory
+# Make sure woke is first installed and in the path: https://github.com/get-woke/woke
 
 # Linefeed character for grep output / field separator
 NEWLINE=$'\n'
