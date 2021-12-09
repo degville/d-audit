@@ -42,7 +42,7 @@ if [ $download != false ] && [ $url != false ]; then
     echo -ne "Downloading docs"
 
     while NEWLINE= read -r urltext; do
-         curl -s "$durl/raw/$urltext/" -o "docs/$urltext.md"
+         curl -s "$durl/raw/$urltext/" -o "$download/$urltext.md"
          echo -ne "."
     done <<< "$doclist"
 
